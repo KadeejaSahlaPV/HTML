@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Inline CSS Example</title>
+</head>
+<body>
+  <h1 style="color: blue; font-size: 24px;">Welcome to My Website!</h1>
+  <p style="font-style: italic;">This is a paragraph with inline CSS styling.</p>
+  <div style="background-color: lightgray; padding: 10px;">
+    <p style="color: green;">This paragraph is inside a div with a light gray background.</p>
+  </div>
+  <img src="example.jpg" alt="Example Image" style="width: 300px; border: 1px solid black;">
+</body>
+</html>
