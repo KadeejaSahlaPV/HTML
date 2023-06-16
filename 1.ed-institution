@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Educational Institution Website</title>
+</head>
+<frameset rows="30%, 50%, 50%">
+  <frame src="header.html" name="topframe" scrolling="no">
+  <frameset cols="50%, 50%">
+    <frame src="left_column.html" name="leftframe">
+    <frame src="right_column.html" name="rightframe">
+  </frameset>
+</frameset>
+</html>
+
+//header.html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>top frame</title>
+</head>
+<body align="center" ><h1> Top frame </h1> </body>
+</html>
+
+//left_column.html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>menu frame</title>
+</head>
+<body align="center" ><h1> Menu frame </h1> </body>
+</html>
+
+//right_column.html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Details frame</title>
+</head>
+<body align="center" ><h1> Details  frame </h1> </body>
+</html>
