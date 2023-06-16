@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Text Alignment Example</h1>
+
+  <div class="alignment-example">
+    <h2>Left Aligned Text</h2>
+    <p class="left-aligned">This is an example of left-aligned text.</p>
+  </div>
+
+  <div class="alignment-example">
+    <h2>Center Aligned Text</h2>
+    <p class="center-aligned">This is an example of center-aligned text.</p>
+  </div>
+
+  <div class="alignment-example">
+    <h2>Right Aligned Text</h2>
+    <p class="right-aligned">This is an example of right-aligned text.</p>
+  </div>
+</body>
+</html>
+
+// styles.css
+.alignment-example {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.left-aligned {
+  text-align: left;
+}
+
+.center-aligned {
+  text-align: center;
+}
+
+.right-aligned {
+  text-align: right;
+}
+
+
+
