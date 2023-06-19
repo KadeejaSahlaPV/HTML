@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Border Colors Demo</title>
+  <style>
+    .border-demo {
+      width: 200px;
+      height: 200px;
+      border: 2px solid;
+      margin: 20px;
+      display: inline-block;
+    }
+
+    .lavender-border {
+      border-color: lavender;
+    }
+
+    .coral-border {
+      border-color: coral;
+    }
+
+    .crimson-border {
+      border-color: crimson;
+    }
+
+    .darkcyan-border {
+      border-color: darkcyan;
+    }
+
+    .grey-border {
+      border-color: grey;
+    }
+  </style>
+</head>
+<body>
+  <h1>Border Colors Demo</h1>
+  <div class="border-demo lavender-border"></div>
+  <div class="border-demo coral-border"></div>
+  <div class="border-demo crimson-border"></div>
+  <div class="border-demo darkcyan-border"></div>
+  <div class="border-demo grey-border"></div>
+</body>
+</html>
