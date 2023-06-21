@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form Controls </title>
+  <style>
+    body {
+      background-color: #c5d5c5; 
+    }
+
+    form {
+      background-color: oldlace;
+      padding: 20px;
+      width: 400px;
+      margin: 0 auto;
+    }
+
+    input[type="text"],
+    input[type="password"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+
+    input[type="submit"],
+    input[type="reset"] {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+    <h1> <center> User informations</center> </h1>
+
+ <form>
+    <label for="name">Single-line Text:</label>
+    <input type="text" id="name" name="name">
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password">
+
+    <label for="message">Multi-line Text:</label>
+    <textarea id="message" name="message" rows="5" cols="30"></textarea>
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Refresh">
+  </form>
+</body>
+</html>
