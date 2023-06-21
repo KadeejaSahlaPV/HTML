@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form Controls</title>
+</head>
+<style>
+  body{
+        background-color:olive;
+      }
+    input[type="submit"],
+    input[type="reset"] {
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+</style>
+
+<body>
+  <h1>Form Controls</h1>
+
+  <form>
+    <label for="name">Single-line Text:</label>
+    <input type="text" id="name" name="name"><br><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password"><br><br>
+
+    <label for="message">Multi-line Text:</label>
+    <textarea id="message" name="message" rows="5" cols="30"></textarea><br><br>
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+  </form>
+</body>
+</html>
