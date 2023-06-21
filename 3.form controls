@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form Controls Example</title>
+</head>
+<style> 
+      body{
+           background-color: darkseagreen;
+          }
+     input[type="submit"],input[type="reset"] 
+         {
+           background-color: #4CAF50;
+           color: #fff;
+           border: none;
+           cursor: pointer;
+</style>
+<body>
+  <h1>Naturalclub Membership</h1>
+
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br><br>
+     
+    Department:<br>
+    <li><label for="radio1">Computer Science</label>
+    <input type="radio" id="radio1" name="radio" value="option1"><br> </li>
+
+    <li><label for="radio2">Physics</label>
+    <input type="radio" id="radio2" name="radio" value="option2"><br></li>
+
+    <li><label for="radio2">Chemistry</label>
+    <input type="radio" id="radio2" name="radio" value="option2"><br></li>
+
+    <li><label for="radio2">Maths</label>
+    <input type="radio" id="radio2" name="radio" value="option2"><br></li>
+
+    <li><label for="radio2">Microbiology</label>
+    <input type="radio" id="radio2" name="radio" value="option2"><br><br></li>
+
+    <label for="select">Year:</label>
+    <select id="select" name="select">
+      <option value="option1">FIRST YEAR</option>
+      <option value="option2">SECOND YEAR</option>
+      <option value="option3">THIRD YEAR</option>
+    </select><br><br>
+  
+    <label for="checkbox">I agree with above information:</label>
+    <input type="checkbox" id="checkbox" name="checkbox"><br><br>
+
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+  </form>
+</body>
+</html>
