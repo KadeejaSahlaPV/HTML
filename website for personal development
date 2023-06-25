@@ -1,0 +1,76 @@
+//website.html
+<html>
+<head>
+  <title>Website</title>
+</head>
+<frameset rows="50%, 50%">
+  <frame src="marque.html" scrolling="yes">
+  <frameset cols="50%, 50%">
+    <frame src="finance.html">
+    <frame src="personal development.html">
+  </frameset>
+</frameset>
+</html>
+
+//marque.html
+
+<HTML>
+<HEAD>
+   <TITLE> MY WEBPAGE </TITLE>
+  <link rel="stylesheet" type="text/css" href="styles3.css">
+</HEAD>
+     <BODY bgcolor=#dac292>
+      <h2>
+          <marquee height="50" direction="right" bgcolor="#b9936c"> WELCOME TO SELF DEVELOPMENT ZONE</marquee>
+      </h2>
+      <h2><center><big>SELF DEVELOPMENT</big></center></h2>
+          <h3><br><br><p>Embarking on the journey of self-development is like wielding a cunning sword, slicing through the barriers of complacency and forging a path towards personal growth.</p>
+
+<p>Step into the transformative pages of this empowering book, where wisdom, inspiration, and practical guidance converge to unlock the untapped potential within, leading you on a profound journey of self-discovery and personal growth.</p>
+</h3>
+      </BODY>
+</HTML> 
+
+
+//styles3.css
+p {
+  font-family: Arial, sans-serif;
+}
+
+h3 {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+//personal development.html
+<html>
+<head>
+<title>personal development</title>
+</head>
+<body bgcolor="#b9936c">
+   <h1 align="center">5 BOOKS FOR PERSONAL DEVELOPMENT</h1><br><br>
+    <ol>
+      <li><h3>How to win friends and influence people</h3></li>
+      <li><h3>7 habits of highly effective people</h3></li>
+      <li><h3>Secret</h3></li>
+      <li><h3>Atomic habits</h3></li>
+      <li><h3>The magic of thinking big</h3></li>
+   </ol>
+</body>
+</html>
+
+
+//finance.html
+<html>
+<head>
+<title>finance </title>
+</head>
+<body bgcolor="#b9936c">
+   <h1 align="center"> BOOKS FOR FINANCE </h1><br><br>
+    <ol>
+      <li><h3>Rich dad poor dad</h3></li>
+      <li><h3>Think and grow rich</h3></li>
+      <li><h3>Richest man in babylon</h3></li>
+   </ol>
+</body>
+</html>
