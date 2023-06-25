@@ -1,0 +1,15 @@
+<HTML>
+<HEAD>
+     <TITLE>Kerala</TITLE>
+</HEAD>
+<BODY Background ="kerala.jpg" Text="Black"
+      Topmargin="10" Leftmargin="90">
+     <H1 Align ="center"><B><BIG><U> KERALA </BIG> </B> </U></H1>
+     <P> <SMALL>Kerala is a state in India,situated in the south west region.</small><BR>
+         <SMALL>Kerala is also know as</SMALL> <I> <Q>God's Own Country</Q> ,</I><SMALL>and</SMALL> <Q>Land of coconut Trees.</Q><BR>
+         <SMALL>The capital city of Kerala is </SMALL> Malayalam.<BR>
+         <SMALL>The official language of Kerala is </SMALL> Malayalam.<BR>
+         <SMALL>Kerala is a</SMALL> tourist destination <SMALL>attracting people by its </SMALL> natural beauty.<BR>
+     </P>
+</BODY>
+</HTML>
