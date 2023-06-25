@@ -3,7 +3,7 @@
 <head>
   <title>Educational Institution Website</title>
 </head>
-<frameset rows="30%, 50%, 50%">
+<frameset rows="50%, 50%">
   <frame src="header.html" name="topframe" scrolling="no">
   <frameset cols="50%, 50%">
     <frame src="left_column.html" name="leftframe">
